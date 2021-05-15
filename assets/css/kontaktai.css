@@ -1,0 +1,18 @@
+.section {
+  text-align: center;
+    padding: 25% 0;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.box-button-wraper {
+    margin-top: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.box{
+  width: 50%;
+    float: left;
+    box-sizing: border-box;
+    }
