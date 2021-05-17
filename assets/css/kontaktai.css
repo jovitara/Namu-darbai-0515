@@ -34,8 +34,9 @@ h1 {
 
 .left-box {
   float: left;
-  width: 45%;
+  width: 50%;
   padding: 10px;
+  box-sizing: border-box;
 }
 
 img {
@@ -45,8 +46,9 @@ img {
 .right-box {
   margin-top: 0;
   float: left;
-  width: 45%;
+  width: 50%;
   padding: 10px;
+  box-sizing: border-box;
 }
 
 .forms {
