@@ -3,11 +3,17 @@
     body {
         background: red;
     }
+    .left-right-box{
+        width: 50%;
+    }
 }
     @media (max-width: 768px) { 
         /* plansete */
         body {
             background: yellow;
+        }
+        .left-right-box{
+            width: 50%;
         }
     }
         @media (max-width: 576px) { 
@@ -15,4 +21,9 @@
             body {
                 background: green;
             }
+            .left-right-box{
+                width: 100%;
+                flex-wrap: wrap;
+            }
+            
         }
