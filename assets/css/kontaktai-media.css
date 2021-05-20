@@ -3,26 +3,23 @@
     body {
         background: red;
     }
-    .left-right-box{
-        width: 50%;
-    }
+   
+
+  
 }
     @media (max-width: 768px) { 
         /* plansete */
         body {
             background: yellow;
         }
-        .left-right-box{
-            width: 50%;
-        }
+          
     }
         @media (max-width: 576px) { 
             /* telefonas */
             body {
                 background: green;
             }
-            .left-right-box{
-                width: 100%;
+            .box{
                 flex-wrap: wrap;
             }
             
