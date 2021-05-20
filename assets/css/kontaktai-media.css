@@ -1,0 +1,18 @@
+@media (max-width: 1400px) { 
+    /* kompiuteris */
+    body {
+        background: red;
+    }
+}
+    @media (max-width: 768px) { 
+        /* plansete */
+        body {
+            background: yellow;
+        }
+    }
+        @media (max-width: 576px) { 
+            /* telefonas */
+            body {
+                background: green;
+            }
+        }
