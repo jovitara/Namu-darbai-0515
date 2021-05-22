@@ -1,55 +1,54 @@
-
-
 .container {
-    width: 1024px;
-    margin: 0 auto;
+  width: 1024px;
+  margin: 0 auto;
 }
 
 .card a {
-    text-decoration: none;
-    color: #333;
-    font-size: 24px;
-    font-weight: 700;
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .card__image img {
-    width: 100%;
+  width: 100%;
 }
 
 .card__image {
-    position: relative;
+  position: relative;
 }
 
 .icon {
-    background: #00d054;
-    width: 50px;
-    height: 50px;
-   
-    }
-    .icon-1 {
-        position: absolute;
-        left: 10 px;
-        bottom: 10px;
-    }
-    .icon-2 {
-        position: absolute;
-        left: 70 px;
-        bottom: 10px;
-    }
-    .icon-3 {
-        position: absolute;
-        left: 140px;
-        bottom: 10px;
-    }
-.icon i {
-    color: white;
-    font-size: 30px;
-   
+  height: 50px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  display: flex;
+}
 
-   
-  
+.icon-1,
+.icon-2,
+.icon-3 {
+  background: #00d054;
+  margin-right: 5px;
+  min-width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.text-icon {
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.icon i {
+  color: yellow;
+  font-size: 30px;
 }
 
 .card {
-    width: 50%;
+  width: 50%;
 }
