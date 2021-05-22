@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontaktai</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/kontaktai-flex.css" />
+    <link rel="stylesheet" href="assets/css/kontaktai-media.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kontaktai</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/kontaktai-flex.css" />
-  <link rel="stylesheet" href="assets/css/kontaktai-media.css" />
-  
-</head>
-
-<body>
-  <section class="section">
-    <div class="container">
-      <div class="box-button-wraper clearfix">
-        <div class="box">
-          <div class="left-right-box">
-            <h1>Let's talk about evеrything!</h1>
-            <p>
-              Lorem ipsum dolorsit amet, consectetur adipisicing elit.
-              Voluptas debitis, fugit natus?
-            </p>
-            <img src="assets/img/undraw-contact.svg" alt="img" />
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="box-button-wraper clearfix">
+          <div class="box">
+            <div class="left-right-box">
+              <h1>Let's talk about evеrything!</h1>
+              <p>
+                Lorem ipsum dolorsit amet, consectetur adipisicing elit.
+                Voluptas debitis, fugit natus?
+              </p>
+              <img src="assets/img/undraw-contact.svg" alt="img" />
+            </div>
+            <div class="left-right-box">
+              <form>
+                <div class="forms">
+                  <input type="text" placeholder="Your name" required />
+                </div>
+                <div class="forms">
+                  <input type="email" placeholder="Email" required />
+                </div>
+                <div class="forms">
+                  <input type="text" placeholder="Subject" required />
+                </div>
+                <div class="forms">
+                  <textarea
+                    name="message"
+                    cols="30"
+                    rows="10"
+                    placeholder="Write your message"
+                  ></textarea>
+                </div>
+                <div class="submit">
+                  <input type="submit" value="Send Message" />
+                </div>
+              </form>
+            </div>
           </div>
-          <div class="left-right-box">
-            <form>
-              <div class="forms">
-                <input type="text" placeholder="Your name" required />
-              </div>
-              <div class="forms">
-                <input type="email" placeholder="Email" required />
-              </div>
-              <div class="forms">
-                <input type="text" placeholder="Subject" required />
-              </div>
-              <div class="forms">
-                <textarea name="message" cols="30" rows="10" placeholder="Write your message"></textarea>
-              </div>
-              <div class="submit">
-                <input type="submit" value="Send Message" />
-              </div>
-            </form>
-           </div>
         </div>
       </div>
-    </div>
-  </section>
-</body>
-
+    </section>
+  </body>
 </html>
